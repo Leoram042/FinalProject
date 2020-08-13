@@ -1,0 +1,8 @@
+create database airfone;
+ 
+use airfone;
+
+create table loginDetails(phone varchar(10) unique,email varchar(100),otp varchar(10));
+
+insert into loginDetails(phone,email,otp) values('9945782683','akshay.murthy9949@gmail.com','1'),('1234567890','aaa@gmail.com','1');
+ 
